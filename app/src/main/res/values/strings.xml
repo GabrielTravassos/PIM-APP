@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PIM</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Cadastrar-se</string>
+    <string name="title_cadastro">Cadastre-se</string>
+</resources>
