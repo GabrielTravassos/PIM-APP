@@ -64,6 +64,9 @@ public class FormCadastro extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
 
                 if (task.isSuccessful()){
+
+                    SalvarDadosUsuario();
+
                     Snackbar snackbar = Snackbar.make(v, mensagens[1], Snackbar.LENGTH_SHORT);
                     snackbar.setBackgroundTint(Color.WHITE);
                     snackbar.setTextColor(Color.BLACK);
@@ -91,6 +94,10 @@ public class FormCadastro extends AppCompatActivity {
                 }
             }
         });
+
+    }
+
+    private void SalvarDadosUsuario(){
 
     }
 
